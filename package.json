@@ -1,0 +1,31 @@
+{
+  "name": "merntodo",
+  "version": "1.0.0",
+  "description": "todo app in mern ",
+  "main": "server.js",
+  "scripts": {
+  "start": "node server.js",
+  "server": "nodemon server.js",
+  "client" : "npm start --prefix client",
+  "dev": "concurrently \"npm run server\" \"npm run client\""
+   
+  },
+  "keywords": [
+    "backend",
+    "and",
+    "frontend"
+  ],
+  "author": "Bollaram",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "module_name": "^1.0.0",
+    "mongoose": "^6.4.4"
+  },
+  "devDependencies": {
+    "concurrently": "^7.2.2",
+    "nodemon": "^2.0.19"
+  }
+}
